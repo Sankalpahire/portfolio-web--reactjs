@@ -1,0 +1,33 @@
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+
+}
+
+.button-hello {
+    width: 115px;
+    height: 45px;
+    transition: all 0.5s ease;
+    color: #6e07f3;
+    border: 3px solid #6e07f3;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.button-hello:hover {
+    color: white;
+    background-color: #6e07f3;
+}
+
+.download-cv:hover {
+    color: #6e07f3 !important;
+}

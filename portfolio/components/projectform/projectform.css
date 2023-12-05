@@ -1,0 +1,93 @@
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+}
+
+.button-clear {
+    width: 115px;
+    height: 45px;
+    transition: all 0.5s ease;
+    color: black;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    padding: 10px 20px;
+    outline: none;
+    text-decoration: none;
+}
+
+.button-clear:hover {
+    color: #6e07f3;
+}
+
+.head-logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.head-logo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+@media (max-width: 511px) {
+    .head-logo img {
+        margin-top: 220px;
+    }
+}
+
+ .heading {
+ text-align: center;
+  margin-top: 100px;
+ }
+.button {
+    width: 115px;
+    height: 45px;
+    color: #6e07f3;
+    border: 3px solid #6e07f3;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 30px;
+    transform: translateY(30px);
+    transition: all 0.3s ease-out 0.2s;
+    margin-top: -15px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #6e07f3;
+}
+
+.container-form {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.form-label {
+    text-align: left;
+}
+.heading {
+    text-align: center;
+}
+.btn-position {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .container-form {
+        padding: 0 10px;
+    }
+}

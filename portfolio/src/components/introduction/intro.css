@@ -1,0 +1,114 @@
+
+.container-main {
+    text-align: center;
+    justify-content: center;
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.container-intro {
+    height: auto;
+    min-height: 60vh; 
+    background-color: #6e07f3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 60px 20px; 
+    box-sizing: border-box; 
+}
+
+.intro-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.heading-para {
+    margin-top: 20px; 
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 1.5em;
+    }
+
+    .heading-para {
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .intro-heading {
+        font-size: 1.2em;
+    }
+
+    .heading-para {
+        font-size: 0.9em;
+    }
+}
+
+
+.card-container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding-bottom: 100px;
+}
+
+
+.card {
+    width: 430px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px rgb(82, 81, 81);
+    transition: box-shadow 0.6s ease;
+
+}
+
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #5be9b9;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: black;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card h6 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.card li {
+    list-style: none;
+    font-size: 14px;
+}

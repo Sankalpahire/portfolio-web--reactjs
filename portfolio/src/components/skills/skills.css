@@ -1,0 +1,39 @@
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.skill-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+
+}
+
+.skill-container div:hover {
+    transform: scale(1.3);
+    transition: all 0.7s ease;
+    overflow-x:hidden;
+}
+
+.text-skill h4 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.skill-container img {
+    width: 215px;
+}
+
+@media (max-width: 768px) {
+    .skill-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

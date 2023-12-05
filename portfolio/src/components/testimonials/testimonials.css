@@ -1,0 +1,138 @@
+.testimonial-card {
+    width: 850px;
+    height: 415px;
+}
+
+.testimonial-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 600px;
+
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    color: #888;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px; 
+    color: #fff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(0);
+    
+}
+
+/* Position the "Previous" control to the left */
+.carousel-control-prev {
+    left: 20px;
+    /* Adjust the left position as needed */
+    background-color: #6e07f3;
+}
+
+/* Position the "Next" control to the right */
+.carousel-control-next {
+    right: 20px;
+    /* Adjust the right position as needed */
+    background-color: #6e07f3;
+}
+
+
+
+.testimonial-card {
+    padding: -220px;
+
+}
+
+
+.testimonial-text p {
+    font-size: 18px;
+}
+
+/* Base styles for larger screens */
+.start-project {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #141c3a;
+    height: 160px;
+    width: 70%;
+    border-radius: 20px;
+    margin: 0 auto;
+    /* Center horizontally */
+    z-index: 2;
+    margin-bottom: -70px;
+}
+
+.start-project-btn {
+    width: 275px;
+    height: 48px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: #5be9b9;
+    border: 3px solid #5be9b9;
+    line-height: 1;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.start-project-btn:hover {
+    color: white;
+    background-color: #5be9b9;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .start-project {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .start-project-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
